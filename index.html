@@ -114,7 +114,15 @@
     <section class="projects" id="projects">
         <h2>Projects</h2>
         <div class="project">
-            <h3>Project 1: AI Policy Research Assistant</h3>
+            <h3>Project 1: RevOps AI Agent Portfolio</h3>
+            <p><strong>Overview</strong>: A runnable prototype of AI-assisted Revenue Operations — four auditable agents that take over a RevOps analyst's manual morning: CRM hygiene sweep, inbound lead triage, weekly pipeline review, and pre-call account research.</p>
+            <p><strong>Technology Stack</strong>: Python (pandas), Anthropic Claude API, CSV mocks standing in for a Salesforce/HubSpot connector</p>
+            <p><strong>Details</strong>: Built to be auditable rather than a black box — the lead-scoring model exposes its weights and prints the reasons behind every score, so the logic can be explained to a sales leader and tuned by a non-engineer. The AI briefing agent degrades gracefully without credentials, printing the prompt it would send alongside a sample brief, so the repository runs on a clean clone with no API key.</p>
+            <p><a href="https://claude.ai/code/artifact/9501a1e0-fddb-4601-9f4d-700cb1384d04?org=64f7121e-12a3-45d6-ac13-2895221d2ed1" target="_blank">Sample Run</a> | <a
+                    href="https://github.com/ryokoralston/revops-ai-portfolio" target="_blank">Source Code</a></p>
+        </div>
+            <div class="project">
+            <h3>Project 2: AI Policy Research Assistant</h3>
             <p><strong>Overview</strong>: A full-stack AI research assistant that drafts congressional briefings, policy memos, and structured AI risk assessments, backed by live web research and a 10-persona policy debate simulator.</p>
             <p><strong>Technology Stack</strong>: Python (FastAPI), Next.js (TypeScript), Anthropic Claude API, Tavily web search, ChromaDB (RAG), SQLite</p>
             <p><strong>Details</strong>: Implements several bounded "evaluator-optimizer" agent loops — the research pipeline grades its own evidence gaps and re-searches to fill them, the debate simulator detects genuine persona disagreement and runs a targeted extra round, and risk assessments re-verify and re-research any individually weak-grounded dimension. Each loop is cost-capped by design rather than open-ended.</p>
@@ -122,7 +130,7 @@
                     href="https://github.com/ryokoralston/ai-research-policy-app" target="_blank">Source Code</a></p>
         </div>
             <div class="project">
-            <h3>Project 2: SQL Portfolio for AI Project Management</h3>
+            <h3>Project 3: SQL Portfolio for AI Project Management</h3>
             <p><strong>Overview</strong>: This case study demonstrates how SQL can be used to identify and analyze delivery delay risks in AI annotation projects.</p>
             <p><strong>Technology Stack</strong>: SQL</p>
             <p><strong>Details</strong>: By combining project schedules, annotation task data, and quality issue records, the analysis highlights early indicators of schedule slippage and supports proactive project management decisions.</p>
@@ -130,14 +138,14 @@
                     href="https://github.com/ryokoralston/sql-ai-pm-portfolio?tab=readme-ov-file" target="_blank">Source Code</a></p>
         </div>
             <div class="project">
-            <h3>Project 3: OneGallonTracker</h3>
+            <h3>Project 4: OneGallonTracker</h3>
             <p><strong>Overview</strong>: A daily water intake tracker that helps users reach the 1-gallon (3785 ml) goal with progress visualization and achievement celebration.</p>
             <p><strong>Technology Stack</strong>: Streamlit (Python), JSON data persistence</p>
             <p><strong>Details</strong>: Features automatic daily reset, 650ml bottle tracking, and balloons animation upon goal achievement. Fully responsive web app.</p>
             <p><a href="https://onegallontracker.streamlit.app/" target="_blank">Live Demo</a> | <a href="https://github.com/ryokoralston/one-gallon-tracker" target="_blank">Source Code</a></p>
         </div>
             <div class="project">
-            <h3>Project 4: Reading Bankbook</h3>
+            <h3>Project 5: Reading Bankbook</h3>
             <p><strong>Overview</strong>: A kid-friendly reading log that turns books into savings — a digital bankbook for reading.</p>
             <p><strong>Technology Stack</strong>: HTML</p>
             <p><strong>Details</strong>: Add entries of books you borrowed from libraries with the price in a bankbook format, like a savings account in a bank. Fully responsive web app.</p>
